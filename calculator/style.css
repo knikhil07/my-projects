@@ -1,0 +1,64 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000;
+    height: 100vh;
+
+}
+.container{
+    height: 65vh;
+    width: 45vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(202, 223, 215, 0.221);
+}
+.display{
+    width: 95%;
+    height: 50px;
+    box-shadow: 10px 10px 10px inset rgba(0, 0, 0, 0.318);
+    margin-top: 20px;
+   
+}
+.display #display{
+    width: 98%;
+    height: 100%;
+    outline: 0ch;
+    border: 0ch;
+    font-size: 24px;
+    text-align: end;
+    color: aliceblue;
+    background-color: transparent;
+}
+.display #display::placeholder{
+    color: aliceblue;
+}
+.input{
+    display: flex;
+    width: 95%;
+    height: 40px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.input input{
+    color: aliceblue;
+    width:  50px;
+    height: 50px;
+    text-align: center;
+    outline: 0ch;
+    border: 0ch;
+    font-size: 24px;
+    background-color:rgba(0, 0, 0, 0.148) ;
+    cursor: pointer;
+}
+.input .eq{
+    width: 130px;
+}
+.input .highlight{
+    color: rgb(195, 125, 33);
+    font-weight: bold;
+}
